@@ -8,7 +8,7 @@ pipeline {
 	  stage ('Build') {
 	    steps {
 		  echo " This is build stage"
-                  echo " This is build stage stage changes"
+                  echo " This is build is triggered for QA"
 	       	  }
 	               	 }
 		 stage ('deploy') {
