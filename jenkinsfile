@@ -20,6 +20,7 @@ pipeline {
 		     steps {
 		         echo "this is testing phase"
                          echo "this is testing stage in ${params.testenv}"
+                         echo "this is test stage for new pipeline"
 		           }
 	                 	}
               }
