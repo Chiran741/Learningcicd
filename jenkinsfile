@@ -8,6 +8,7 @@ pipeline {
 	  stage ('Build') {
 	    steps {
 		  echo " This is build stage"
+                  echo "final code test for prod"
 	       	  }
 	               	 }
 		 stage ('deploy') {
